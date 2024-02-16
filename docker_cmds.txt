@@ -1,2 +1,83 @@
 docker --version
+docker version
 docker-compose --version
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+# for show all images
+docker image ls
+
+
+# for make container from image such as node or python 
+docker run node
+
+
+# for docker login from terminal / command prompt
+docker login
+
+
+# for pull image from docker hub
+docker pull ubuntu
+docker pull python:3.7
+
+
+docker container --help
+docker container ls
+docker container ls -a
+
+
+docker run redis
+docker run -d redis
+docker run -detach redis
+
+docker run --detach --name me_nginx nginx
+
+docker pull node
+> docker scout quickview node
+
+docker volume ls
+docker volume rm -f VOLUME_NAME
+docker volume prune
+
+docker container --help
+docker container ls -al
+docker container rm CONTAINER_NAME
+docker container stop CONTAINER_NAME
+docker container rm -f CONTAINER_NAME
+
+docker container prune
+
+
+*. you can use both of commands for show all containers
+docker container ls
+docker ps
+
+docker logs CONTAINER_ID
+
+docker stop CONTAINER_NAME 
+docker container stop CONTAINER_NAME
+docker start CONTAINER_NAME
+docker container start CONTAINER_NAME
+
+
+docker pull redis
+docker scout quickview redis
+docker scout cves redis
+docker scout recommendations redis
+docker scout quickview redis --org <organization>
+
+
+docker exec
+docker exec nginx ls
+
+docker exec -i nginx bash
+docker exec -it nginx bash
+*. you can use nginx terminal with use -i(interactive) 
+
+
+
+
+
+
+
+docker run -p 80:80 nginx
+

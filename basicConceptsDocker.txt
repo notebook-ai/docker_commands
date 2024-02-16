@@ -1,0 +1,25 @@
+Some basic concepts in Docker:
+
+*. docker has a visual enviroments, so we run some application into docker
+*. some people has compare docker via virtual machine / visual box
+
+Image:
+image has a single file with all the deps and config required to run a program
+it's look like concept class in oop programing
+
+
+Container:
+instance of an image runs a program
+
+Tag:
+tag in docker like version in software 
+
+Volume:
+Network:
+
+
+
+
+Docker hub:
+docker hub hase many image,
+some people create image as ubuntu, python, alpine, redis, mysql and etc
