@@ -74,10 +74,12 @@ docker exec -it nginx bash
 *. you can use nginx terminal with use -i(interactive) 
 
 
+docker volume inspect VOMLUME_NAME
+docker run -it ubuntu
+
+docker network ls
 
 
-
-
-
-docker run -p 80:80 nginx
+PORT_MAPPING:
+docker run -d --name my_nginx -p 8080:80 nginx
 

@@ -14,12 +14,18 @@ instance of an image runs a program
 Tag:
 tag in docker like version in software 
 
-Volume:
+Volume: if you change some setting after create container, change setting container write in the volume file
+
 Network:
+if you want connect two or many container each other, you must use network
 
-
+Each container has its own network
+Each container has its own isolated network and cannot communicate with other containers by default
 
 
 Docker hub:
 docker hub hase many image,
 some people create image as ubuntu, python, alpine, redis, mysql and etc
+
+port mapping:
+by default, such as container nginx is not connect to port 80 on your local pc
