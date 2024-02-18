@@ -83,3 +83,12 @@ docker network ls
 PORT_MAPPING:
 docker run -d --name my_nginx -p 8080:80 nginx
 
+docker file name: Dockerfile
+for build Dockerfile you can use this command
+
+docker build .
+
+docker build -t REPOSITORY_NAME:TAG_or_VERSION .
+docker build -t flask_app:1.1.2 .
+
+docker-compose up 
